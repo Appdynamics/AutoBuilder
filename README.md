@@ -2,7 +2,7 @@
 
 **Prerequisite: Java 1.8 is required and $JAVA_HOME should point to the same.**
 
-Step-1: Run "java -version" command in your machine where you want to build the extension/s. The output should point to Java 1.8.
+Step-1: Run "echo $JAVA_HOME" command in your machine where you want to build the extension/s. The output should point to the path of Java 1.8.
 
 Step-2: Download the latest available version of the attached file AutoBuilder-<x.y.z>.jar.
 
