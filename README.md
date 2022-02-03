@@ -16,8 +16,7 @@
 **Step-6:** That's it! Now, sit back and relax. It will take a few minutes before the zip file gets ready at the path mentioned earlier.
 
 
-**Additional Logging**
--> Additional logging will help you diagnose if any issues. If you notice any error/s in building the extension or you don't see the zip file in the target directory, then you can enable additional maven related logging by restarting the AutoBuilder with this command:
+**Additional Logging**: Additional logging will help you diagnose if any issues. If you notice any error/s in building the extension or you don't see the zip file in the target directory, then you can enable additional maven related logging by restarting the AutoBuilder with this command:
            java -Dautobuilder.logging.enabled=true -jar AutoBuilder-<x.y.z>.jar
            
  
