@@ -18,7 +18,7 @@ Output: Zip file of the target extension.
 **Step-5:** That's it! Now, sit back and relax. It will take a few minutes before the zip file gets ready at the target path.
 
 
-**Path Configuration**: Default target path is "/<path-of-the-autobuilder-jar-file>/out". If you wish to create a zip file of the extension at your desired path, then you can use this command. This should be an empty directory. If the same directory does not exist, then it will be created automatically at the mentioned path:
+**Path Configuration**: Default target path is "/path-of-the-autobuilder-jar-file/out". If you wish to create a zip file of the extension at your desired path, then you can use this command. This should be an empty directory. If the same directory does not exist, then it will be created automatically at the mentioned path:
  java -Dautobuilder.path="your-absolute-path" -jar AutoBuilder-<x.y.z>.jar
 
 **Additional Logging**: This will help you diagnose if any issues related to maven/build. If you notice any error/s in building the extension or you don't see the zip file in the target directory, then you can enable additional maven related logging by restarting the AutoBuilder with this command:
