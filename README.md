@@ -21,7 +21,7 @@ Output: Zip file of the target extension in the path you mention.
 
 
 **Path Configuration**: If you wish to create a zip file of the extension at your desired path, then you can use this command:
- java -Dautobuilder.path="<your-path>" -jar AutoBuilder-<x.y.z>.jar
+ java -Dautobuilder.path="your-path" -jar AutoBuilder-<x.y.z>.jar
 
 **Additional Logging**: This will help you diagnose if any issues related to maven/build. If you notice any error/s in building the extension or you don't see the zip file in the target directory, then you can enable additional maven related logging by restarting the AutoBuilder with this command:
            java -Dautobuilder.logging.enabled=true -jar AutoBuilder-<x.y.z>.jar
