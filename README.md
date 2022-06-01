@@ -1,5 +1,10 @@
 # AutoBuilder
 
+This tool helps in building the AppDynamics open-source extensions automatically. No more hicups of installing maven or git commands in your production server, and run into various troubles building the extensions manually.
+
+Input: Absolute path where you want the extension zip file, Extension number you want to build.
+Output: Zip file of the target extension in the path you mention.
+
 **Prerequisite: Java 1.8 is required and $JAVA_HOME should point to the same.**
 
 **Step-1:** Run "echo $JAVA_HOME" command in your machine where you want to build the extension/s. The output should point to the path of Java 1.8. Only after confirming this, proceed to Step-2.
