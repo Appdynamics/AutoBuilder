@@ -13,13 +13,12 @@ Output: Zip file of the target extension.
 **Step-3:** From the terminal or the command prompt (in case of windows), navigate to the path where you have downloaded the above JAR file and run this command:
             java -jar AutoBuilder-<x.y.z>.jar
 
-**Step-4:** Select the number from the list of extensions you want to build. This should be a numeric input. Only one extension can be built at a time.
+**Step-4:** Enter the absolute path where you want the zip file to be. This path should be an empty directory.
 
-**Step-5:** That's it! Now, sit back and relax. It will take a few minutes before the zip file gets ready at the target path.
+**Step-5:** Select the number from the list of extensions you want to build. This should be a numeric input. Only one extension can be built at a time.
 
+**Step-6:** That's it! Now, sit back and relax. It will take a few minutes before the zip file gets ready at the target path.
 
-**Path Configuration**: Default target path is "/path-of-the-autobuilder-jar-file/out". If you wish to create a zip file of the extension at your desired path, then you can use this command. This should be an empty directory. If the same directory does not exist, then it will be created automatically at the mentioned path:
- java -Dautobuilder.path="your-absolute-path" -jar AutoBuilder-<x.y.z>.jar
 
 **Additional Logging**: This will help you diagnose if any issues related to maven/build. If you notice any error/s in building the extension or you don't see the zip file in the target directory, then you can enable additional maven related logging by restarting the AutoBuilder with this command:
            java -Dautobuilder.logging.enabled=true -jar AutoBuilder-<x.y.z>.jar
